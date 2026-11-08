@@ -175,8 +175,7 @@ flutter test --coverage
 Requisitos: Flutter 3.35 ou superior e um emulador ou celular Android/iOS.
 
 ```bash
-git clone https://github.com/<seu-usuario>/flutter-devtask-architecture.git
-cd flutter-devtask-architecture
+
 flutter pub get
 flutter run
 ```
