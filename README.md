@@ -130,40 +130,7 @@ dart run tool/gen_l10n.dart
 | mocktail | Mocks nos testes |
 | sqflite_common_ffi | Rodar o SQLite nos testes sem emulador |
 
-## Estrutura de pastas
 
-```
-lib/
-├── core/
-│   ├── database/        # conexão e criação das tabelas
-│   ├── di/              # injeção de dependência
-│   ├── errors/          # exceções da aplicação
-│   ├── l10n/            # traduções
-│   ├── theme/           # tema claro e escuro
-│   └── utils/           # Clock e formatadores
-├── data/
-│   ├── datasources/     # acesso ao SQLite
-│   ├── models/          # TaskModel
-│   └── repositories/    # implementações dos repositórios
-├── domain/
-│   ├── entities/        # entidades e enums
-│   ├── repositories/    # contratos
-│   └── usecases/        # regras de negócio
-├── presentation/
-│   ├── bloc/            # TaskBloc, ThemeCubit e LocaleCubit
-│   ├── l10n/            # tradução de erros e enums
-│   ├── views/           # telas
-│   └── widgets/         # componentes reutilizáveis
-├── app.dart
-└── main.dart
-
-test/
-├── data/
-├── domain/
-├── presentation/
-├── mocks/
-└── app_flow_test.dart
-```
 
 ## Testes
 
