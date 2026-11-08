@@ -1,0 +1,136 @@
+{
+  "@@locale": "en",
+
+  "appTitle": "DevTask",
+
+  "splashTagline": "Plan it. Track it. Get it done.",
+  "splashLoading": "Loading your tasks…",
+
+  "navDashboard": "Dashboard",
+  "navTasks": "Tasks",
+  "navHistory": "History",
+
+  "themeLight": "Light mode",
+  "themeDark": "Dark mode",
+
+  "language": "Language",
+  "languageSystem": "System default",
+  "languagePortuguese": "Português (Brasil)",
+  "languageEnglish": "English (US)",
+  "languageSheetSubtitle": "Choose how DevTask talks to you",
+  "languageSystemSubtitle": "Follows your device language",
+
+  "greetingMorning": "Good morning",
+  "greetingAfternoon": "Good afternoon",
+  "greetingEvening": "Good evening",
+  "dashboardHeadline": "Here's how your tasks are going",
+
+  "newTask": "New task",
+  "editTask": "Edit task",
+
+  "statTotal": "Total",
+  "statPending": "Pending",
+  "statCompleted": "Completed",
+  "statOverdue": "Overdue",
+
+  "completionRate": "Completion rate",
+  "completionSummary": "{completed} of {total} done · {favorites, plural, =0{no favorites} =1{1 favorite} other{{favorites} favorites}}",
+  "@completionSummary": {
+    "placeholders": {
+      "completed": { "type": "int" },
+      "total": { "type": "int" },
+      "favorites": { "type": "num", "format": "compact" }
+    }
+  },
+  "byCategory": "By category",
+  "upNext": "Up next",
+  "nothingPendingTitle": "Nothing pending",
+  "nothingPendingMessage": "Tap + to plan your next task.",
+
+  "searchHint": "Search by title",
+  "clearSearch": "Clear search",
+  "noTasksTitle": "No tasks yet",
+  "noTasksMessage": "Create your first task with the + button.",
+  "noMatchesTitle": "No matching tasks",
+  "noMatchesMessage": "Try another filter or search term.",
+
+  "filterAll": "All",
+  "filterPending": "Pending",
+  "filterCompleted": "Completed",
+  "filterOverdue": "Overdue",
+  "filterFavorites": "Favorites",
+
+  "historyEmptyTitle": "No completed tasks yet",
+  "historyEmptyMessage": "Tasks you complete will show up here.",
+  "historyGroupHeader": "{day} · {count}",
+  "@historyGroupHeader": {
+    "placeholders": {
+      "day": { "type": "String" },
+      "count": { "type": "int" }
+    }
+  },
+  "historyItemSubtitle": "{category} · {priority} priority",
+  "@historyItemSubtitle": {
+    "placeholders": {
+      "category": { "type": "String" },
+      "priority": { "type": "String" }
+    }
+  },
+  "reopen": "Reopen",
+
+  "overdueOn": "Overdue · {date}",
+  "@overdueOn": {
+    "placeholders": { "date": { "type": "String" } }
+  },
+  "addFavorite": "Add to favorites",
+  "removeFavorite": "Remove from favorites",
+
+  "priorityLow": "Low",
+  "priorityMedium": "Medium",
+  "priorityHigh": "High",
+
+  "categoryWork": "Work",
+  "categoryStudy": "Study",
+  "categoryPersonal": "Personal",
+  "categoryHealth": "Health",
+  "categoryOther": "Other",
+
+  "titleLabel": "Title",
+  "descriptionLabel": "Description (optional)",
+  "categoryLabel": "Category",
+  "priorityLabel": "Priority",
+  "dueDateLabel": "Due date",
+  "noDueDate": "No due date",
+  "clearDueDate": "Clear due date",
+  "createdOn": "Created {date}",
+  "@createdOn": {
+    "placeholders": { "date": { "type": "String" } }
+  },
+  "completedOn": "Completed {date}",
+  "@completedOn": {
+    "placeholders": { "date": { "type": "String" } }
+  },
+  "saveChanges": "Save changes",
+  "createTask": "Create task",
+  "delete": "Delete",
+  "cancel": "Cancel",
+  "deleteDialogTitle": "Delete task?",
+  "deleteDialogMessage": "This action cannot be undone.",
+
+  "feedbackCreated": "Task created",
+  "feedbackUpdated": "Task updated",
+  "feedbackDeleted": "Task deleted",
+
+  "errorTitleRequired": "Title is required.",
+  "errorTitleTooLong": "Title must have at most {max} characters.",
+  "@errorTitleTooLong": {
+    "placeholders": { "max": { "type": "int" } }
+  },
+  "errorDescriptionTooLong": "Description must have at most {max} characters.",
+  "@errorDescriptionTooLong": {
+    "placeholders": { "max": { "type": "int" } }
+  },
+  "errorTaskNotSaved": "This task has not been saved yet.",
+  "errorTaskNotFound": "Task not found. It may have been deleted.",
+  "errorStorage": "Could not access local storage."
+}

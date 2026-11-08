@@ -1,0 +1,102 @@
+{
+  "@@locale": "pt",
+
+  "appTitle": "DevTask",
+
+  "splashTagline": "Planeje. Acompanhe. Conclua.",
+  "splashLoading": "Carregando suas tarefas…",
+
+  "navDashboard": "Painel",
+  "navTasks": "Tarefas",
+  "navHistory": "Histórico",
+
+  "themeLight": "Modo claro",
+  "themeDark": "Modo escuro",
+
+  "language": "Idioma",
+  "languageSystem": "Padrão do sistema",
+  "languagePortuguese": "Português (Brasil)",
+  "languageEnglish": "English (US)",
+  "languageSheetSubtitle": "Escolha como o DevTask fala com você",
+  "languageSystemSubtitle": "Segue o idioma do aparelho",
+
+  "greetingMorning": "Bom dia",
+  "greetingAfternoon": "Boa tarde",
+  "greetingEvening": "Boa noite",
+  "dashboardHeadline": "Veja como estão suas tarefas",
+
+  "newTask": "Nova tarefa",
+  "editTask": "Editar tarefa",
+
+  "statTotal": "Total",
+  "statPending": "Pendentes",
+  "statCompleted": "Concluídas",
+  "statOverdue": "Atrasadas",
+
+  "completionRate": "Taxa de conclusão",
+  "completionSummary": "{completed} de {total} concluídas · {favorites, plural, =0{nenhum favorito} =1{1 favorito} other{{favorites} favoritos}}",
+  "byCategory": "Por categoria",
+  "upNext": "Próximas",
+  "nothingPendingTitle": "Nada pendente",
+  "nothingPendingMessage": "Toque em + para planejar sua próxima tarefa.",
+
+  "searchHint": "Buscar por título",
+  "clearSearch": "Limpar busca",
+  "noTasksTitle": "Nenhuma tarefa ainda",
+  "noTasksMessage": "Crie sua primeira tarefa com o botão +.",
+  "noMatchesTitle": "Nenhuma tarefa encontrada",
+  "noMatchesMessage": "Tente outro filtro ou termo de busca.",
+
+  "filterAll": "Todas",
+  "filterPending": "Pendentes",
+  "filterCompleted": "Concluídas",
+  "filterOverdue": "Atrasadas",
+  "filterFavorites": "Favoritas",
+
+  "historyEmptyTitle": "Nenhuma tarefa concluída ainda",
+  "historyEmptyMessage": "As tarefas que você concluir aparecerão aqui.",
+  "historyGroupHeader": "{day} · {count}",
+  "historyItemSubtitle": "{category} · prioridade {priority}",
+  "reopen": "Reabrir",
+
+  "overdueOn": "Atrasada · {date}",
+  "addFavorite": "Adicionar aos favoritos",
+  "removeFavorite": "Remover dos favoritos",
+
+  "priorityLow": "Baixa",
+  "priorityMedium": "Média",
+  "priorityHigh": "Alta",
+
+  "categoryWork": "Trabalho",
+  "categoryStudy": "Estudos",
+  "categoryPersonal": "Pessoal",
+  "categoryHealth": "Saúde",
+  "categoryOther": "Outros",
+
+  "titleLabel": "Título",
+  "descriptionLabel": "Descrição (opcional)",
+  "categoryLabel": "Categoria",
+  "priorityLabel": "Prioridade",
+  "dueDateLabel": "Prazo",
+  "noDueDate": "Sem prazo",
+  "clearDueDate": "Remover prazo",
+  "createdOn": "Criada em {date}",
+  "completedOn": "Concluída em {date}",
+  "saveChanges": "Salvar alterações",
+  "createTask": "Criar tarefa",
+  "delete": "Excluir",
+  "cancel": "Cancelar",
+  "deleteDialogTitle": "Excluir tarefa?",
+  "deleteDialogMessage": "Esta ação não pode ser desfeita.",
+
+  "feedbackCreated": "Tarefa criada",
+  "feedbackUpdated": "Tarefa atualizada",
+  "feedbackDeleted": "Tarefa excluída",
+
+  "errorTitleRequired": "O título é obrigatório.",
+  "errorTitleTooLong": "O título deve ter no máximo {max} caracteres.",
+  "errorDescriptionTooLong": "A descrição deve ter no máximo {max} caracteres.",
+  "errorTaskNotSaved": "Esta tarefa ainda não foi salva.",
+  "errorTaskNotFound": "Tarefa não encontrada. Ela pode ter sido excluída.",
+  "errorStorage": "Não foi possível acessar o armazenamento local."
+}

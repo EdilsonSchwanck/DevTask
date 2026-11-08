@@ -1,0 +1,40 @@
+name: devtask
+description: "DevTask – a Flutter architecture showcase: Clean Architecture + MVVM with BLoC and SQLite."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  bloc: ^9.2.1
+  equatable: ^3.0.0
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.1.1
+  flutter_localizations:
+    sdk: flutter
+  get_it: ^9.3.0
+  intl: any
+  path: ^1.9.1
+  shared_preferences: ^2.5.5
+  sqflite: ^2.4.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  bloc_test: ^10.0.0
+  mocktail: ^1.0.5
+  sqflite_common_ffi: ^2.3.7+1
+  flutter_native_splash: ^2.4.7
+
+flutter:
+  uses-material-design: true
+
+# Native launch screen (shown while the Flutter engine boots, before the
+# animated SplashPage). Regenerate with: dart run flutter_native_splash:create
+flutter_native_splash:
+  color: "#3D5AFE"
+  android_12:
+    color: "#3D5AFE"
