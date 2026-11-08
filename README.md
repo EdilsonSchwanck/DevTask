@@ -187,7 +187,3 @@ Se o build do Android falhar com o erro `25.0.4`, o Flutter está usando o Java 
 flutter config --jdk-dir "C:\Program Files\Java\jdk-21"
 ```
 
-## Próximos passos
-
-- Fazer o mesmo app usando Provider e MobX, mantendo as camadas de domínio e de dados, para comparar as três formas de gerenciar estado
-- Configurar o GitHub Actions para rodar a análise e os testes a cada push
